@@ -1,0 +1,32 @@
+# ── Secrets / environment ─────────────────────────────────────────────────────
+.env
+.venv/.env
+*.env
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Generated outputs ─────────────────────────────────────────────────────────
+output.csv
+eval_run.log
+code/evaluation/predictions_sample.csv
+code/evaluation/evaluation_report.md
+
+# ── Transcript log must live in %USERPROFILE%, never in the repo ──────────────
+log.txt
+
+# ── OS / editor cruft ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+test_run.log
